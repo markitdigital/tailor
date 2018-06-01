@@ -26,13 +26,5 @@ Output uses a structured JSON format including a timestamp and source:
 
 ```
 ...
-{"level":"debug","msg":"2018-06-01 20:33:52 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 333\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:54 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 1\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:54 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 0\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:54 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 0\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:55 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 1\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:55 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 0\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:55 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 1\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
-{"level":"debug","msg":"2018-06-01 20:33:56 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 1\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
 {"level":"debug","msg":"2018-06-01 20:33:56 ::1 GET /ExampleWebApplication - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:60.0)+Gecko/20100101+Firefox/60.0 - 500 0 0 1\r","source":"c:\\inetpub\\logs\\LogFiles\\W3SVC1\\u_ex180601.log","time":"2018-06-01T14:34:21-06:00"}
 ```
