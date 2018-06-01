@@ -1,5 +1,5 @@
 # Tailor
-Tailor acts as a drop-in replacement for the official Microsoft [IIS Service Monitor](https://github.com/Microsoft/IIS.ServiceMonitor) application with the additional ability to forward the contents of multiple log files (such as the ones created by IIS) to `stdout`, so they can be seen with `docker logs` or more easily collected with log aggregation systems.
+Tailor acts as a drop-in replacement for the official Microsoft [IIS Service Monitor](https://github.com/Microsoft/IIS.ServiceMonitor) application with the additional ability to forward the contents of multiple log files (such as the ones created by IIS) to `stdout`, so they can be seen with `docker logs` and more easily collected with log aggregation systems.
 
 It will monitor a given Windows service and exit when that service's state changes from `SERVICE_RUNNING`. In the background, it will collect the contents of any designated log files and write them to `stdout` in a structured JSON format.
 
