@@ -60,6 +60,7 @@ func main() {
 		matches, _ := filepath.Glob(path)
 		for _, file := range matches {
 			go func(file string) {
+				logrus.WithField("source", "tailor").Debugf("Tailing logfile: %s", file)
 				t, _ := tail.TailFile(file, tail.Config{Follow: true, Poll: true, ReOpen: true, Logger: logrus.WithFields(logrus.Fields{"source": file})})
 				for line := range t.Lines {
 					logrus.WithField("source", file).Debug(line.Text)
