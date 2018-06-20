@@ -14,19 +14,14 @@ import (
 )
 
 const (
-	// TimeoutSeconds is the number of seconds to wait between service status queries
+	// TimeoutSeconds is the number of seconds to wait between service status queries. Currently identical to the number of
+	// seconds used in Microsoft's ServiceMonitor.exe
 	TimeoutSeconds = 20
 
 	// DelayOnExit is the number of seconds to wait after a service has exited before returning an exit code to allow logs
 	// to finigh being collected
 	DelayOnExit = 5
 )
-
-// LogLine contains a log line and a source file
-type LogLine struct {
-	SourceFile string
-	Line       string
-}
 
 func init() {
 	// set logrus to use JSON & stdout
